@@ -61,18 +61,19 @@ nav a:hover {
 
 
 .tabla {
-  background-color: aliceblue;
+  background-color: rgba(255, 255, 255, 0.315);
   width: 88%;
   margin: auto auto;
 }
 
 table, th, td {
+
   border: 1px solid black;
   padding: 10px;
 }
 
 th {
-  background-color: lightgray;
+  background-color: rgba(22, 58, 179, 0.267);
 }
 
 .tabla th:nth-child(1) {
