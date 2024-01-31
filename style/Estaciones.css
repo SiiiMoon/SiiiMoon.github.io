@@ -1,6 +1,10 @@
+body{
+  background-image: url(../imgs/FondoPaginas.jpg);
+}
 .tabla {
+  background-color: aliceblue;
   width: 88%;
-  margin: 0 12% 0 12%;
+  margin: auto auto;
 }
 
 table, th, td {
@@ -17,9 +21,9 @@ th {
 }
 
 .tabla th:nth-child(2) {
-  width: 25%;
+  width: 50%;
 }
 
 .tabla th:nth-child(3) {
-  width: 50%;
+  width: 25%;
 }
