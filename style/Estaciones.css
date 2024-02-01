@@ -3,6 +3,8 @@ body {
   padding: 0;
   font-family: 'Arial', sans-serif;
   background-image: url(../imgs/FondoPaginas.jpg);
+  background-size: cover ;
+  background-position: center;
 }
 h1{
   font-size: xxx-large;
@@ -100,7 +102,6 @@ a{
   font-size:21px;
 }
 
-
 .tabla th:nth-child(1) {
   width: 25%;
 }
@@ -111,4 +112,28 @@ a{
 
 .tabla th:nth-child(3) {
   width: 25%;
+}
+
+.ferler_fotos{
+    height: auto;
+    position: relative;
+    display: block;
+}
+.ferler_fotos img{
+  width: 200px;
+  height: 125px;
+  display: block;
+  position: relative;
+  padding: 7px;
+}
+
+#instalaciones.cerler{
+  position: absolute;
+}
+#mapa.cerler{
+  position: absolute;
+  padding-left: 15px;
+}
+#pueblo.cerler{
+  position: absolute;
 }

@@ -5,7 +5,8 @@ body {
 }
 
 header {
-    background-color: #333;
+    background-image: url(../imgs/fibraDeCarbono.jpg);
+    /* @Yerai mira a ver si te gusta el header asi con este estilo*/
     color: #fff;
     padding: 10px;
     display: flex;
@@ -40,6 +41,8 @@ nav ul li {
 nav a {
     background-size: 100px;
     border-radius: 25px;
+    padding: 5px;
+    /* @Yerai con el padding en el header puedes hacer mas grande lo que hemos hablado en clase */
     background-color: grey;
     text-decoration: none;
     color: #fff;
@@ -55,14 +58,6 @@ nav a:hover {
 .telefono {
     margin-right: 100px;
 }
-
-
-
-
-
-
-
-
 footer {
     background-color: #333;
     color: #fff;
