@@ -79,13 +79,13 @@ footer {
 }
 
 
-a {
+footer a {
     color: #fff;
     text-decoration: none; /* esto es para que no se subraye lo enlaces*/
     font-size: 15px;
-}
-
-a:hover{
+  }
+  
+  footer a:hover{
     color: aqua;
     font-size: 16px;
-}
+  }
