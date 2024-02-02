@@ -54,3 +54,8 @@ nav a:hover {
 .telefono {
     margin-right: 100px;
 }
+
+#reservas{
+    border: 5px solid black;
+    margin: 20px;
+}

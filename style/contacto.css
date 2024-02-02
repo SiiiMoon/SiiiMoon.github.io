@@ -6,12 +6,14 @@ body {
 
 header {
     background-image: url(../imgs/fibraDeCarbono.jpg);
-    /* @Yerai mira a ver si te gusta el header asi con este estilo*/
+    /* @Yerai mira a ver si te gusta el header asi con este estilo*/ /*@Alex Esta perfe ;) */
     color: #fff;
-    padding: 10px;
+    padding: auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    min-width: auto;
+    max-width: auto;
     
 }
 
@@ -35,14 +37,14 @@ nav ul {
 }
 
 nav ul li {
-    margin-right: 250px;
+    margin-right: 150px;
 }
 
 nav a {
     background-size: 100px;
     border-radius: 25px;
     padding: 5px;
-    /* @Yerai con el padding en el header puedes hacer mas grande lo que hemos hablado en clase */
+    /* @Yerai con el padding en el header puedes hacer mas grande lo que hemos hablado en clase */  /* @Alex vale gracias */
     background-color: grey;
     text-decoration: none;
     color: #fff;
@@ -59,7 +61,7 @@ nav a:hover {
     margin-right: 100px;
 }
 footer {
-    background-color: #333;
+    background-image: url(../imgs/fibraDeCarbono.jpg);
     color: #fff;
     padding: 20px;
     display: flex;
@@ -78,7 +80,7 @@ footer {
 
 a {
     color: #fff;
-    text-decoration: none; /* esto es para que no se subraye*/
+    text-decoration: none; /* esto es para que no se subraye lo enlaces*/
     font-size: 15px;
 }
 
