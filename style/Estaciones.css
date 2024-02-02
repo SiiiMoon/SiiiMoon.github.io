@@ -15,6 +15,12 @@ h1{
 }
 
 
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Arial', sans-serif;
+}
+
 header {
   background-image: url(../imgs/fibraDeCarbono.jpg);
   /* @Yerai mira a ver si te gusta el header asi con este estilo*/ /*@Alex Esta perfe ;) */
@@ -71,7 +77,34 @@ nav a:hover {
 .telefono {
   margin-right: 100px;
 }
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
 
+.contacto {
+  text-align: left;
+}
+
+.ubicacion {
+  text-align: right;
+}
+
+
+a {
+  color: #fff;
+  text-decoration: none; /* esto es para que no se subraye lo enlaces*/
+  font-size: 15px;
+}
+
+a:hover{
+  color: aqua;
+  font-size: 16px;
+}
 
 
 
