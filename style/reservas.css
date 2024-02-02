@@ -2,6 +2,56 @@ body {
     margin: 0;
     padding: 0;
     font-family: 'Arial', sans-serif;
+    display: flex;
+    flex-direction: column;
+    
+    min-height: 100vh;
+}
+  
+
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+form {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 300px;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: blue;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+}
+
+button:hover {
+    background-color: aqua;
 }
 
 
@@ -61,6 +111,9 @@ nav a:hover {
 .telefono {
     margin-right: 100px;
 }
+
+
+
 footer {
     background-image: url(../imgs/fibraDeCarbono.jpg);
     color: #fff;
@@ -89,3 +142,40 @@ footer a {
     color: aqua;
     font-size: 16px;
   }
+
+
+
+
+
+  @media only screen and (max-width: 600px) {
+    header {
+        padding: 10px; /* Ajustado el espacio interior */
+    }
+
+    .logo img {
+        width: 100%; /* Ocupa el 100% del ancho en dispositivos pequeños */
+    }
+
+    nav ul {
+        flex-direction: row; /* Vuelve a la fila para dispositivos más pequeños */
+        justify-content: center; /* Centra los elementos */
+    }
+
+    nav ul li {
+        margin-right: 15px; /* Añade margen entre elementos */
+        margin-bottom: 0; /* Restablece el margen inferior */
+    }
+}
+
+
+
+@media only screen and (max-width: 600px) {
+    footer {
+        padding: 10px; /* Ajustado el espacio interior */
+    }
+
+    .contacto,
+    .ubicacion {
+        text-align: center; /* Centra el texto en dispositivos pequeños */
+    }
+}
