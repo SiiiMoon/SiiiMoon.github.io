@@ -62,7 +62,7 @@ nav a:hover {
     margin-right: 100px;
 }
 footer {
-    background-color: #333;
+    background-image: url(../imgs/fibraDeCarbono.jpg);
     color: #fff;
     padding: 20px;
     display: flex;
