@@ -58,17 +58,6 @@ nav a:hover {
 .telefono {
     margin-right: 100px;
 }
-
-.textarea{
-    background-color: green;
-    border: 2px solid black;
-    
-}
-.imgarea{
-    width: 100px;
-}
-
-
 div.block{
     width: auto;
     text-align: center;
@@ -78,7 +67,7 @@ div.block{
     background-color: rgba(34, 169, 212, 0.4);
 }
 section{
-    padding-top: 20px;
+    padding-top: 2;
 }
 .reserva{
     width: auto;
