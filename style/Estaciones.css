@@ -162,11 +162,11 @@ a{
     display: block;
 }
 .ferler_fotos img{
-  width: 200px;
-  height: 125px;
-  display: block;
-  position: relative;
-  padding: 7px;
+  width: 225px;
+height: 125px;
+display: block;
+position: relative;
+padding: 7px;
 }
 
 #instalaciones.cerler{
@@ -177,5 +177,29 @@ a{
   padding-left: 15px;
 }
 #pueblo.cerler{
+  position: absolute;
+}
+
+.Formigal_fotos{
+  height: auto;
+  position: relative;
+  display: block;
+}
+.Formigal_fotos img{
+width: 225px;
+height: 125px;
+display: block;
+position: relative;
+padding: 7px;
+}
+
+#mapa.formigal{
+  position: absolute;
+}
+#igulu.formigal{
+  position: absolute;
+  
+}
+#vistas.formigal{
   position: absolute;
 }
