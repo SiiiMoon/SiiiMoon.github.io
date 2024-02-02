@@ -13,13 +13,19 @@ h1{
   text-decoration-thickness: 5px;
   text-decoration-line:underline ;
 }
+
+
 header {
-  background-color: #333;
+  background-image: url(../imgs/fibraDeCarbono.jpg);
+  /* @Yerai mira a ver si te gusta el header asi con este estilo*/ /*@Alex Esta perfe ;) */
   color: #fff;
-  padding: 10px;
+  padding: auto;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  min-width: auto;
+  max-width: auto;
+  
 }
 
 .logo img {
@@ -42,12 +48,14 @@ nav ul {
 }
 
 nav ul li {
-  margin-right: 250px;
+  margin-right: 150px;
 }
 
 nav a {
   background-size: 100px;
   border-radius: 25px;
+  padding: 5px;
+  /* @Yerai con el padding en el header puedes hacer mas grande lo que hemos hablado en clase */  /* @Alex vale gracias */
   background-color: grey;
   text-decoration: none;
   color: #fff;
