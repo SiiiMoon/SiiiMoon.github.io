@@ -3,8 +3,16 @@ body {
   padding: 0;
   font-family: 'Arial', sans-serif;
   background-image: url(../imgs/FondoPaginas.jpg);
+  background-size: cover ;
+  background-position: center;
 }
-
+h1{
+  font-size: xxx-large;
+  text-align: center;
+  text-shadow: 2px 3px rgb(71, 68, 68);
+  text-decoration-thickness: 5px;
+  text-decoration-line:underline ;
+}
 header {
   background-color: #333;
   color: #fff;
@@ -61,19 +69,37 @@ nav a:hover {
 
 
 .tabla {
-  background-color: rgba(255, 255, 255, 0.315);
+  background-color: rgba(255, 255, 255, 0.5);
   width: 88%;
   margin: auto auto;
 }
 
-table, th, td {
+th{
+  font-size: x-large;
+  text-align: center;
+  background-color: rgba(22, 58, 179, 0.267);
+}
 
+table, th, td {
+  text-align: justify;
   border: 1px solid black;
   padding: 10px;
 }
+a{
+  text-decoration: none;
+  color: black;
 
-th {
-  background-color: rgba(22, 58, 179, 0.267);
+}
+.nEstacion{
+  font-size: large;
+  color: black;
+  text-align: center;
+  overflow: hidde;
+  list-style-type: none;
+}
+.nEstacion :hover{
+  color: rgb(4, 0, 255); 
+  font-size:21px;
 }
 
 .tabla th:nth-child(1) {
@@ -86,4 +112,28 @@ th {
 
 .tabla th:nth-child(3) {
   width: 25%;
+}
+
+.ferler_fotos{
+    height: auto;
+    position: relative;
+    display: block;
+}
+.ferler_fotos img{
+  width: 200px;
+  height: 125px;
+  display: block;
+  position: relative;
+  padding: 7px;
+}
+
+#instalaciones.cerler{
+  position: absolute;
+}
+#mapa.cerler{
+  position: absolute;
+  padding-left: 15px;
+}
+#pueblo.cerler{
+  position: absolute;
 }
