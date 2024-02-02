@@ -1,15 +1,79 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Arial', sans-serif;
+  background-image: url(../imgs/FondoPaginas.jpg);
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo img {
+  width: 200px;
+  height: auto;
+  margin: 10px;
+  margin-bottom: 15px;
+}
+
+.logo img:hover {
+  width: 210px;
+  height: auto;
+
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  
+}
+
+nav ul li {
+  margin-right: 250px;
+}
+
+nav a {
+  background-size: 100px;
+  border-radius: 25px;
+  background-color: grey;
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+nav a:hover {
+  color: aqua; 
+  font-size:21px;
+}
+
+.telefono {
+  margin-right: 100px;
+}
+
+
+
+
+
 .tabla {
+  background-color: rgba(255, 255, 255, 0.315);
   width: 88%;
-  margin: 0 12% 0 12%;
+  margin: auto auto;
 }
 
 table, th, td {
+
   border: 1px solid black;
   padding: 10px;
 }
 
 th {
-  background-color: lightgray;
+  background-color: rgba(22, 58, 179, 0.267);
 }
 
 .tabla th:nth-child(1) {
@@ -17,9 +81,9 @@ th {
 }
 
 .tabla th:nth-child(2) {
-  width: 25%;
+  width: 50%;
 }
 
 .tabla th:nth-child(3) {
-  width: 50%;
+  width: 25%;
 }
