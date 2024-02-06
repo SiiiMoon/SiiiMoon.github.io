@@ -2,7 +2,7 @@ body {
   margin: 0;
   padding: 0;
   font-family: 'Arial', sans-serif;
-  background-image: url(../imgs/FondoPaginas.jpg);
+  background-color: rgb(188, 219, 247);
   background-size: cover ;
   background-position: center;
 }
@@ -116,6 +116,7 @@ footer a:hover{
 }
 
 th{
+  text-align: center;
   font-size: x-large;
   text-align: center;
   background-color: rgba(22, 58, 179, 0.267);
@@ -123,11 +124,13 @@ th{
 
 table, th, td {
   text-align: justify;
-  border: 1px solid black;
+  border: 3px solid rgb(44, 8, 202);
   padding: 10px;
 }
 
 a{
+  text-shadow: 2px 1px #2a3772;
+  font-size: xx-large;
   text-decoration: none;
   color: black;
 
@@ -139,6 +142,7 @@ a{
   overflow: hidde;
   list-style-type: none;
 }
+
 .nEstacion :hover{
   color: rgb(4, 0, 255); 
   font-size:21px;
@@ -156,38 +160,26 @@ a{
   width: 25%;
 }
 
-.ferler_fotos{
-    height: auto;
-    position: relative;
-    display: block;
-}
-.ferler_fotos img{
-  width: 225px;
-height: 125px;
-display: block;
-position: relative;
-padding: 7px;
-}
+
 
 #instalaciones.cerler{
   position: absolute;
 }
 #mapa.cerler{
   position: absolute;
-  padding-left: 15px;
 }
 #pueblo.cerler{
   position: absolute;
 }
 
-.Formigal_fotos{
+.Estaciones_fotos{
   height: auto;
   position: relative;
   display: block;
 }
-.Formigal_fotos img{
-width: 225px;
-height: 125px;
+.Estaciones_fotos img{
+width: 95%;
+height: auto;
 display: block;
 position: relative;
 padding: 7px;
@@ -201,5 +193,48 @@ padding: 7px;
   
 }
 #vistas.formigal{
+  position: absolute;
+}
+#instalaciones.astun{
+  position: absolute;
+}
+#mapa.astun{
+  position: absolute;
+  
+}
+#vista.astun{
+  position: absolute;
+}
+
+
+#montañas.candanchu{
+  position: absolute;
+}
+#mapa.candanchu{
+  position: absolute;
+}
+#pueblo.candanchu{
+  position: absolute;
+}
+
+#nocturno.baqueria{
+  position: absolute;
+}
+#mapa.baqueria{
+  position: absolute;
+  
+}
+#pueblo.baqueria{
+  position: absolute;
+}
+
+#otoño.larra{
+  position: absolute;
+}
+#mapa.larra{
+  position: absolute;
+  
+}
+#refugio.larra{
   position: absolute;
 }
