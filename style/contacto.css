@@ -78,6 +78,52 @@ footer {
     text-align: right;
 }
 
+.contenedor{
+    display: flex;
+    justify-content: space-between;
+    border: 3px solid green;
+    margin: 20px;
+}
+.contactbox{
+    margin: 50px;
+    width: 49%;
+    display: inline-block;
+    border: 1px solid red;
+}
+.mapa{
+    margin: 50px;
+    width: 49%;
+    display: inline-block;
+    border: 1px solid red;
+}
+
+.contactanosotros{
+    text-align: center;
+    border: 2px solid orange;
+    padding-left: 20%;
+    padding-right: 20%;
+    margin: 20px;
+}
+.textzone{
+    text-align: center;
+    border: 2px solid black;
+    padding-left: 20%;
+    padding-right: 20%;
+    margin: 20px;
+}
+.envio{
+    text-align: center;
+    border: 2px solid pink;
+    padding-left: 20%;
+    padding-right: 20%;
+    margin: 20px;
+}
+
+li{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: auto;
+    /* font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif; */
+}
 
 footer a {
     color: #fff;
