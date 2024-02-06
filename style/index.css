@@ -11,7 +11,7 @@ body {
 header {
     background-image: url(../imgs/fibraDeCarbono.jpg);
     /* @Yerai mira a ver si te gusta el header asi con este estilo*/ /*@Alex Esta perfe ;) */
-    color: #fff;
+    color: aliceblue;
     padding: auto;
     display: flex;
     justify-content: space-between;
@@ -85,14 +85,17 @@ section{
     background-color: red;
 }
 .img1{
+    padding: 3px;
     width: 100px;
     display: inline-block;
 }
 .imgHijo{
     width: 100%;
+    padding: 3px;
     display: inline;
 }
 div.estaciones{
+
     width: auto;
     text-align: center;
     padding: 15px;
@@ -100,12 +103,14 @@ div.estaciones{
     margin-left: 33%;
 }
 img{
+    border: 3px solid black;
     max-width: 100%;
     height: auto;
     margin-right: 80%;
 }
 
 .contenedorflexbox{
+    background-color: white;
     display: flex;
     justify-content: space-between;
 
@@ -180,4 +185,8 @@ a{
 }
 .secesta{
     background-color: rgb(173, 173, 173);
+}
+
+.reservas.img{
+    border-radius: 12px;
 }
