@@ -250,3 +250,51 @@ button {
 button:hover {
   background-color: aqua;
 }
+@media only screen and (max-width: 600px) {
+  .contenedor {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .contactbox,
+  .mapa,
+  .envio,
+  .textzone {
+    width: 100%; 
+  }
+
+  nav ul li {
+    margin-right: 15px;
+  }
+
+  .telefono {
+    margin-right: 15px;
+  }
+
+  footer {
+    padding: 10px;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .contacto,
+  .ubicacion {
+    text-align: center;
+  }
+
+  .contactbox,
+  .mapa,
+  .textzone,
+  .envio {
+    margin: 10px;
+  }
+
+  .contactbox {
+    text-align: center;
+  }
+
+  .apps2 {
+    flex-direction: column;
+    align-items: center;
+  }
+}
