@@ -252,38 +252,47 @@ padding: 7px;
   }
 
   header {
-      padding: 10px;
+    padding: 10px;
+    justify-content: space-around;
+    max-width: auto;
+    flex-direction: column;
+    align-items: center;
   }
 
   .logo img {
-      width: 150px;
-      margin: 5px;
+    width: 150px;
+    margin: 5px;
+    margin-bottom: 10px;
   }
 
-  nav ul li {
-      margin-right: 50px;
+  nav {
+    width: 100%;
+    margin-bottom: 10px;
   }
 
   nav a {
-      padding: 3px;
-      font-size: 16px;
+    padding: 5px 10px;
+    font-size: 14px;
+    margin: 5px;
   }
 
-  .telefono {
-      margin-right: 50px;
-  }
+
+
 
   footer {
-      padding: 10px;
+    padding: 10px;
+    flex-direction: column;
+    align-items: center;
   }
 
-  .contenedorflexbox {
-      flex-direction: column;
+  .contacto, .ubicacion {
+    text-align: center;
+    width: 100%;
   }
 
-  .box1, .box2 {
-      width: 100%;
-      margin: 10px;
+  footer a {
+    font-size: 14px;
+    margin: 5px;
   }
 
   .Estaciones_fotos img {
@@ -319,6 +328,7 @@ padding: 7px;
   table {
       width: 90%; 
       margin: auto;
+  }
 
   th, td {
       width: 33.33%;
@@ -332,4 +342,3 @@ padding: 7px;
       margin-right: 0;
   }
   }
-}
