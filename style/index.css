@@ -366,3 +366,80 @@ a{
           -7px 20px 1px #e4e3e2;
     }
 }
+
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+    header {
+        padding: 15px; 
+    }
+
+    .logo img {
+        width: 150px; 
+        margin-bottom: 10px; 
+    }
+
+    nav ul li {
+        margin-right: 20px;
+    }
+
+    nav a {
+        font-size: 18px;
+    }
+
+    .telefono {
+        margin-right: 50px; 
+    }
+
+    footer {
+        padding: 15px; 
+    }
+
+    .contacto,
+    .ubicacion {
+        margin-bottom: 15px; 
+    }
+
+    footer a {
+        font-size: 14px; 
+    }
+
+    .contenedorflexbox {
+        flex-wrap: wrap; 
+        justify-content: space-around; 
+    }
+
+    .box1,
+    .box2 {
+        width: calc(50% - 20px); 
+        margin: 10px; 
+    }
+
+    section div p {
+        font-size: 16px; 
+        margin-top: 10%; 
+    }
+
+    button {
+        display: block;
+        margin: 10px auto;
+    }
+
+    .secesta {
+        background-color: rgb(173, 173, 173);
+    }
+
+    .reservas.img {
+        border-radius: 12px;
+    }
+
+    .sec {
+        margin: 3% 5%;
+    }
+
+    .elegantshadow {
+        letter-spacing: .15em;
+        text-shadow:
+          1px -1px 0 #767676,
+          -1px 2px 1px #737272,
+          -7px 20px 1px #e4e3e2;
+    }
+}
