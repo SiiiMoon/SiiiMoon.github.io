@@ -1,3 +1,5 @@
+
+
 body {
   margin: 0;
   padding: 0;
@@ -129,7 +131,7 @@ th{
 table, th, td {
   font-size: 20px;
   text-align: justify;
-  border: 3px solid rgb(44, 8, 202);
+  border: 3px solid rgb(0,0,0);
   padding: 10px;
 }
 
