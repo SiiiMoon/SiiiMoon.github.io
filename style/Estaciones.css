@@ -23,6 +23,7 @@ body {
   font-family: 'Arial', sans-serif;
 }
 
+
 header {
   background-image: url(../imgs/fibraDeCarbono.jpg);
   /* @Yerai mira a ver si te gusta el header asi con este estilo*/ /*@Alex Esta perfe ;) */
@@ -31,7 +32,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  min-width: auto;
+  min-width: 1200px;
   max-width: auto;
   
 }
@@ -79,6 +80,8 @@ nav a:hover {
 .telefono {
   margin-right: 100px;
 }
+
+
 footer {
   background-image: url(../imgs/fibraDeCarbono.jpg);
   color: #fff;
@@ -86,6 +89,8 @@ footer {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  min-width: 1160px;
+  max-width: auto;
 }
 
 .contacto {
@@ -107,7 +112,6 @@ footer a:hover{
   color: aqua;
   font-size: 16px;
 }
-
 
 
 
