@@ -84,6 +84,8 @@ footer {
   margin-top: 2%;
 }
 .contactbox {
+  display: flex;
+  justify-content: space-between;
   margin: 50px 3% 50px 0;
   width: 49%;
   display: inline-block;
@@ -115,13 +117,12 @@ footer {
   padding-right: 20%;
   margin: 20px;
 }
-ul.box3 {
-  margin-top: 33%;
-  margin-bottom: 33%;
+.box3 {
+  margin-top: 10%;
+  margin-bottom: 1%;
   margin-left: 20px;
 }
-
-li {
+.con {
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   font-size: 100%;
   width: 100%;
@@ -152,12 +153,12 @@ footer a:hover {
 }
 .contegedor1{
   text-align: center;
-  margin: 2% 10% 0 10%;
+  margin: 0 10% 0 10%;
   /* padding-left: 20%;
   padding-right: 20%; */
 }
 .contactanosotros {
-  text-align: center;
+  text-align: left;
   border: 2px solid orange;
   /* padding-left: 20%;
   padding-right: 20%;
@@ -183,3 +184,39 @@ img.app1 {
   padding-right: 20%; */
   /* margin: 20px; */
 }
+#hor{
+  text-align: center;
+  text-transform:uppercase;
+  font-weight: bold;
+}
+.apps2{
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid blue;
+}
+.email{
+  text-align: right;
+  border: 1px solid black;
+  width: 33%;
+  margin-right: 5%;
+  padding: 2% 10px;
+}
+.pregunta{
+  border: 1px solid red;
+  width: 66%;
+  font: inherit;
+  font-size: 100%;
+  margin: 0;
+  /* padding: 50% 10px; */
+  vertical-align: middle;
+  text-transform: uppercase;
+}
+#pr{
+  vertical-align: middle;
+  font-weight: bold;
+  border: 5%;
+  padding: 2% 10px;
+  /* font-size: 100%; */
+}
+
