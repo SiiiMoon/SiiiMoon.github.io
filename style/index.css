@@ -202,7 +202,8 @@ button{
     color: white;
     /* background: aqua; */
     cursor: pointer;
-    background-image: linear-gradient(to right,rgb(20, 108, 190) 10px,rgb(0, 217, 255)45%);
+    /* background-image: linear-gradient(to right,rgb(20, 108, 190) 10px,rgb(0, 217, 255)45%); */
+    background-color: rgb(20, 108, 190);
     background-size: 200%;
     background-repeat: no-repeat;
     background-position: left;
