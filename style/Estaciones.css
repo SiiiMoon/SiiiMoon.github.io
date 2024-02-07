@@ -21,6 +21,7 @@ body {
   font-family: 'Arial', sans-serif;
 }
 
+
 header {
   background-image: url(../imgs/fibraDeCarbono.jpg);
   /* @Yerai mira a ver si te gusta el header asi con este estilo*/ /*@Alex Esta perfe ;) */
@@ -77,6 +78,9 @@ nav a:hover {
 .telefono {
   margin-right: 100px;
 }
+
+
+
 footer {
   background-image: url(../imgs/fibraDeCarbono.jpg);
   color: #fff;
@@ -105,7 +109,6 @@ footer a:hover{
   color: aqua;
   font-size: 16px;
 }
-
 
 
 
