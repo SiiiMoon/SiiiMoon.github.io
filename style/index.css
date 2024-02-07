@@ -8,10 +8,11 @@ body {
     background-position: center;
 }
 
+
 header {
     background-image: url(../imgs/fibraDeCarbono.jpg);
     /* @Yerai mira a ver si te gusta el header asi con este estilo*/ /*@Alex Esta perfe ;) */
-    color: aliceblue;
+    color: #fff;
     padding: auto;
     display: flex;
     justify-content: space-between;
@@ -64,6 +65,37 @@ nav a:hover {
 .telefono {
     margin-right: 100px;
 }
+
+
+
+footer {
+    background-image: url(../imgs/fibraDeCarbono.jpg);
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contacto {
+    text-align: left;
+}
+
+.ubicacion {
+    text-align: right;
+}
+
+
+footer a {
+    color: #fff;
+    text-decoration: none; /* esto es para que no se subraye lo enlaces*/
+    font-size: 15px;
+  }
+  
+  footer a:hover{
+    color: aqua;
+    font-size: 16px;
+  }
 
 div.block{
     width: auto;
@@ -127,7 +159,7 @@ img{
     display: inline-block;
 
 }
-p{
+section div p{
     margin-top: 33%;
     text-align: center;
     /* text-shadow: 2px 2px 5px rgb(49, 155, 182); */

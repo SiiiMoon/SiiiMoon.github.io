@@ -14,6 +14,8 @@ body {
     flex-direction: column;
     margin-left: 200px;
     margin-right: 200px;
+    margin-top: 100px;
+    margin-bottom: 100px;
 }
 
 form {
@@ -46,6 +48,38 @@ input {
     box-sizing: border-box;
 }
 
+
+.reserva {
+    position: relative;
+    display: inline-block;
+  }
+
+  .reserva-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    padding: 10px;
+    min-width: 160px;
+    z-index: 1;
+  }
+
+  .reserva:hover .reserva-content {
+    display: block;
+  }
+
+  .reserva-item {
+    padding: 8px 12px;
+    display: block;
+    text-decoration: none;
+    color: #333;
+  }
+
+  .reserva:hover {
+    background-color: #ddd;
+  }
+
+
 button {
     background-color: blue;
     color: #fff;
@@ -63,7 +97,6 @@ button:hover {
 
 
 
-
 header {
     background-image: url(../imgs/fibraDeCarbono.jpg);
     /* @Yerai mira a ver si te gusta el header asi con este estilo*/ /*@Alex Esta perfe ;) */
@@ -72,20 +105,22 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    min-width: auto;
+    min-width: 1200px;
     max-width: auto;
     
 }
 
 .logo img {
-    width: 200px;
+    min-height: auto;
+    max-width: 200px;
     height: auto;
     margin: 10px;
     margin-bottom: 15px;
 }
 
 .logo img:hover {
-    width: 210px;
+    min-width: auto;
+    max-width: 210px;
     height: auto;
   
 }
@@ -130,6 +165,8 @@ footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    min-width: 1160px;
+    max-width: auto;
 }
 
 .contacto {
@@ -152,39 +189,3 @@ footer a {
     font-size: 16px;
   }
 
-
-
-
-
-  @media only screen and (max-width: 600px) {
-    header {
-        padding: 10px; /* Ajustado el espacio interior */
-    }
-
-    .logo img {
-        width: 100%; /* Ocupa el 100% del ancho en dispositivos pequeños */
-    }
-
-    nav ul {
-        flex-direction: row; /* Vuelve a la fila para dispositivos más pequeños */
-        justify-content: center; /* Centra los elementos */
-    }
-
-    nav ul li {
-        margin-right: 15px; /* Añade margen entre elementos */
-        margin-bottom: 0; /* Restablece el margen inferior */
-    }
-}
-
-
-
-@media only screen and (max-width: 600px) {
-    footer {
-        padding: 10px; /* Ajustado el espacio interior */
-    }
-
-    .contacto,
-    .ubicacion {
-        text-align: center; /* Centra el texto en dispositivos pequeños */
-    }
-}
