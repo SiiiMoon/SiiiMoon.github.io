@@ -12,25 +12,30 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  min-width: auto;
+  min-width: 1200px;
   max-width: auto;
+  
 }
 
 .logo img {
-  width: 200px;
+  min-height: auto;
+  max-width: 200px;
   height: auto;
   margin: 10px;
   margin-bottom: 15px;
 }
 
 .logo img:hover {
-  width: 210px;
+  min-width: auto;
+  max-width: 210px;
   height: auto;
+
 }
 
 nav ul {
   list-style: none;
   display: flex;
+  
 }
 
 nav ul li {
@@ -41,7 +46,7 @@ nav a {
   background-size: 100px;
   border-radius: 25px;
   padding: 5px;
-  /* @Yerai con el padding en el header puedes hacer mas grande lo que hemos hablado en clase */ /* @Alex vale gracias */
+  /* @Yerai con el padding en el header puedes hacer mas grande lo que hemos hablado en clase */  /* @Alex vale gracias */
   background-color: grey;
   text-decoration: none;
   color: #fff;
@@ -50,13 +55,15 @@ nav a {
 }
 
 nav a:hover {
-  color: aqua;
-  font-size: 21px;
+  color: aqua; 
+  font-size:21px;
 }
 
 .telefono {
   margin-right: 100px;
 }
+
+
 
 footer {
   background-image: url(../imgs/fibraDeCarbono.jpg);
@@ -65,6 +72,8 @@ footer {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  min-width: 1160px;
+  max-width: auto;
 }
 
 .contacto {
@@ -74,6 +83,19 @@ footer {
 .ubicacion {
   text-align: right;
 }
+
+
+footer a {
+  color: #fff;
+  text-decoration: none; /* esto es para que no se subraye lo enlaces*/
+  font-size: 15px;
+}
+
+footer a:hover{
+  color: aqua;
+  font-size: 16px;
+}
+
 
 .contenedor {
   display: flex;
@@ -137,16 +159,7 @@ iframe {
   height: 100%;
   border: 0;
 }
-footer a {
-  color: #fff;
-  text-decoration: none; /* esto es para que no se subraye lo enlaces*/
-  font-size: 15px;
-}
 
-footer a:hover {
-  color: aqua;
-  font-size: 16px;
-}
 .link1 {
   color: rgb(160, 50, 50);
   text-decoration: none;
