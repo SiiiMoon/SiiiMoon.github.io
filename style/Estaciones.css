@@ -30,7 +30,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  min-width: auto;
+  min-width: 1200px;
   max-width: auto;
   
 }
@@ -80,7 +80,6 @@ nav a:hover {
 }
 
 
-
 footer {
   background-image: url(../imgs/fibraDeCarbono.jpg);
   color: #fff;
@@ -88,6 +87,8 @@ footer {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  min-width: 1160px;
+  max-width: auto;
 }
 
 .contacto {
