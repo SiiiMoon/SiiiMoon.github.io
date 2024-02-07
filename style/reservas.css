@@ -79,14 +79,16 @@ header {
 }
 
 .logo img {
-    width: 200px;
+    min-height: auto;
+    max-width: 200px;
     height: auto;
     margin: 10px;
     margin-bottom: 15px;
 }
 
 .logo img:hover {
-    width: 210px;
+    min-width: auto;
+    max-width: 210px;
     height: auto;
   
 }
